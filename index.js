@@ -14,3 +14,6 @@ const drivers = [
        );
    }
 
+function matchName(newArray, driverString) {
+    return newArray.filter((record) => record.name === driverString);
+}
